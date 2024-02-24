@@ -1,5 +1,5 @@
 ## docker run 명령어
-> docker run -d --name youtube_download -v /mnt/e/aigenda_drive/project_code/youtube_download:/app -p 7000:8501 youtube_download:1.0
+> docker run -d --name youtube_download -p 7000:8501 youtube_download:1.1
 
 ## docker 내부 접속
 > docker exec -it RL_cartpole /bin/bash
